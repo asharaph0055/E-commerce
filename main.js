@@ -1,5 +1,6 @@
 // main.js
-import { laptopAccessories } from './product.js';
+import { laptopAccessories, GroceryItem } from './product.js';
+
 
 // 🛒 Cart array
 const cart = [];
@@ -32,6 +33,7 @@ function renderProducts(products, containerId) {
         <img src="${product.image}" alt="${product.alt}" />
       </a>
       <h3>${product.name}</h3>
+      <p class="price">₹${product.price}</p>
       <button class="add-to-cart">Add to Cart</button>
     `;
 
@@ -47,6 +49,7 @@ function renderProducts(products, containerId) {
 
 // 🚀 Initial render
 renderProducts(laptopAccessories, 'electronics-container');
+renderProducts(GroceryItem, "grocery-container");
 
 // 🔍 Search functionality
 document.getElementById('searchInput')?.addEventListener('input', e => {
@@ -56,9 +59,13 @@ document.getElementById('searchInput')?.addEventListener('input', e => {
     p.name.toLowerCase().includes(query)
   );
 
+  const filteredGroceries = GroceryItem.filter(p =>
+    p.name.toLowerCase().includes(query)
+  );
+
   renderProducts(filteredElectronics, 'electronics-container');
+  renderProducts(filteredGroceries, "grocery-container");
 });
 
-import { accessories } from './product.js';
 
-renderProducts(accessories, 'accessories-container');
+

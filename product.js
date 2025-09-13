@@ -1,3 +1,4 @@
+
 // product.js
 
 export const laptopAccessories = [
@@ -30,35 +31,85 @@ export const laptopAccessories = [
     price: 219
   },
   {
-    name: "Mouse",
-    image: "https://m.media-amazon.com/images/I/61bZSyWlakL._SX569_.jpg",
-    link: "https://amzn.to/489K33Q",
-    alt: "Mouse",
-    price: 199
-  },
-  {
     name: "Converter",
     image: "https://m.media-amazon.com/images/I/41wpT29nF4L._SY450_.jpg",
     link: "https://amzn.to/4nmTstA",
     alt: "Converter",
     price: 99
+  },
+  {
+    name: "Laptop Stand",
+    image: "https://m.media-amazon.com/images/I/71xbTfHb6OL._SY450_.jpg",
+    link: "https://amzn.to/4nrsBMU",
+    alt: "Laptop stand",
+    price: 699
+  },
+  {
+    name: "keyboard skin",
+    image: "https://m.media-amazon.com/images/I/61VI+sDx5KL._SY450_.jpg",
+    link: "https://amzn.to/47CIwmQ",
+    alt: "Laptop keybord skin",
+    price: 99
+  },
+  {
+    name: "cleaning cloths",
+    image: "https://m.media-amazon.com/images/I/51rU3h6yBPL._SX450_.jpg",
+    link: "https://amzn.to/4nP7eW7",
+    alt: "cleaning cloths",
+    price: 95
+  },
+  {
+    name: "camera cover",
+    image: "https://m.media-amazon.com/images/I/315EHvouLML._SY300_SX300_QL70_FMwebp_.jpg",
+    link: "https://amzn.to/4nycpcP",
+    alt: "camera cover",
+    price: 99
+  },
+  {
+    name: "web cam",
+    image: "https://m.media-amazon.com/images/I/41xgAeZkL5L._SY300_SX300_QL70_FMwebp_.jpg",
+    link: "https://amzn.to/3Imqc74",
+    alt: "web cam",
+    price: 3999
+  },
+  {
+    name: "USB-A 3.0",
+    image: "https://m.media-amazon.com/images/I/51Z+2C0v85L._SY450_.jpg",
+    link: "https://amzn.to/4ntEYbe",
+    alt: "USB-A 3.0",
+    price: 299
   }
 ];
 
-// ✅ Add accessories category
-export const accessories = [
+// this is for Grocery---------------------------------------------.
+
+export const GroceryItem = [
   {
-    name: "Headphones",
-    image: "https://m.media-amazon.com/images/I/61iK0UJNJiL._SY450_.jpg",
-    link: "https://amzn.to/4headphones",
-    alt: "Headphones",
-    price: 1499
+   name: "Mixed-Dry Fruit",
+    image: "https://m.media-amazon.com/images/I/61J60jF4XgL._SX679_.jpg",
+    link: "https://amzn.to/46B6Kgb",
+    alt: "Mixed-Dry Fruit",
+    price: 28
   },
   {
-    name: "Power Bank",
-    image: "https://m.media-amazon.com/images/I/61bYzZzWvWL._SY450_.jpg",
-    link: "https://amzn.to/4powerbank",
-    alt: "Power Bank",
-    price: 1099
-  }
+    name: "Salt",
+    image: "https://m.media-amazon.com/images/I/51ZkJ-B1EYL._SY300_SX300_QL70_FMwebp_.jpg",
+    link: "https://amzn.to/3K2m3Ws",
+    alt: "salt",
+    price: 28
+  },
+  {
+    name: "kismis",
+    image: "https://m.media-amazon.com/images/I/71jkzZKDw0L._SX679_.jpg",
+    link: "https://amzn.to/3IlrDmk",
+    alt: "kismis",
+    price: 279
+  },
+  {
+    name: "kaju",
+    image: "https://m.media-amazon.com/images/I/81y18qUAVtL._SX679_.jpg",
+    link: "https://amzn.to/4nvCnh4",
+    alt: "kaju",
+    price: 494
+  },
 ];
