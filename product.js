@@ -14,7 +14,7 @@ export const laptopAccessories = [
     image: "https://m.media-amazon.com/images/I/51lekN8a8sL._SY450_.jpg",
     link: "https://amzn.to/3JnUiYl",
     alt: "Laptop Stand",
-    price: 899
+    price: 389
   },
   {
     name: "SSD",
@@ -113,3 +113,4 @@ export const GroceryItem = [
     price: 494
   },
 ];
+
