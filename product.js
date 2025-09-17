@@ -1,6 +1,3 @@
-
-// product.js
-
 export const laptopAccessories = [
   {
     name: "Keyboard",
@@ -14,7 +11,7 @@ export const laptopAccessories = [
     image: "https://m.media-amazon.com/images/I/51lekN8a8sL._SY450_.jpg",
     link: "https://amzn.to/3JnUiYl",
     alt: "Laptop Stand",
-    price: 389
+    price: 899
   },
   {
     name: "SSD",
@@ -78,7 +75,56 @@ export const laptopAccessories = [
     link: "https://amzn.to/4ntEYbe",
     alt: "USB-A 3.0",
     price: 299
-  }
+  },
+  {
+    name: "type A to c usb cable",
+    image: "https://m.media-amazon.com/images/I/512Sve+CvWS._SX522_.jpg",
+    link: "https://amzn.to/3Ih7GNG",
+    alt: "type A to c usb cable",
+    price: 289
+  },
+  {
+    name:"type A to c usb cable",
+    image: "https://m.media-amazon.com/images/I/41i7Owq4VzL._SX522_.jpg",
+    link: "https://amzn.to/4n9mtsU",
+    alt: "type A to C data cable",
+    price: 199
+  },
+  {
+    name:"Supervooc Data Cable",
+    image: "https://m.media-amazon.com/images/I/31KspLGCT7L.jpg",
+    link: "https://amzn.to/3Ip5MKO",
+    alt: "Supervooc Data cable",
+    price: 149
+  },
+  {
+    name:"type C to 3.5mm converter",
+    image:"https://m.media-amazon.com/images/I/71R-XkZL2AL._SX425_.jpg",
+    link: "https://amzn.to/3VlpMks",
+    alt: "type C to 3.5mm converter",
+    price: 149
+  },
+  {
+    name: "Laptop Stand(NC230)",
+    image: "https://m.media-amazon.com/images/I/71hi6uFZeNL._SX522_.jpg",
+    link: "https://amzn.to/46oguJl",
+    alt: "Laptop Stand(NC230)",
+    price: 549
+  },
+  {
+    name: "Laptop Stand(C39)",
+    image: "https://m.media-amazon.com/images/I/81OBJtkmthL._SY355_.jpg",
+    link: "https://amzn.to/46pdBIy",
+    alt: "Laptop Stand(C39)",
+    price: 561
+  },
+  {
+    name: "Mouse pad",
+    image: "https://m.media-amazon.com/images/I/717mdoCgGDL._SX425_.jpg",
+    link: "https://amzn.to/3IrsnX5",
+    alt: "Mouse pad",
+    price: 89
+  },
 ];
 
 // this is for Grocery---------------------------------------------.
@@ -114,3 +160,14 @@ export const GroceryItem = [
   },
 ];
 
+//=============This is for Fitness tools============
+
+export const fitnessItem = [
+  {
+    Name: "####",
+    image: "https://m.media-amazon.com/images/I/61vRtazwcKL._SX679_.jpg",
+    link: "https://amzn.to/46uh08Y",
+    alt: "####",
+    price: 399
+  },
+];
