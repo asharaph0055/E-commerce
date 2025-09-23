@@ -158,6 +158,13 @@ export const GroceryItem = [
     alt: "kaju",
     price: 494
   },
+  {
+    name: "laptop stand",
+    image: "https://m.media-amazon.com/images/I/615MaSOPLZL._SX522_.jpg",
+    link: "https://amzn.to/46zYMmk",
+    alt: "laptop stand",
+    price: 259
+  }
 ];
 
 //=============This is for Fitness tools============
