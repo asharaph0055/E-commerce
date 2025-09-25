@@ -23,30 +23,6 @@ header h1 {
   animation: fadeIn 1s ease-in;
 }
 
-nav {
-  background-color: white;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  padding: 15px 30px;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  gap: 30px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #2c5364;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-nav a:hover {
-  color: #ff6f61;
-}
-
 .category {
   padding: 40px 20px;
   text-align: center;
@@ -66,7 +42,7 @@ nav a:hover {
 }
 
 
-.item {  
+.item {
   background: white;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
