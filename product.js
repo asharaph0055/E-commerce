@@ -84,22 +84,22 @@ export const laptopAccessories = [
     price: 289
   },
   {
-    name:"type A to c usb cable",
+    name: "type A to c usb cable",
     image: "https://m.media-amazon.com/images/I/41i7Owq4VzL._SX522_.jpg",
     link: "https://amzn.to/4n9mtsU",
     alt: "type A to C data cable",
     price: 199
   },
   {
-    name:"Supervooc Data Cable",
+    name: "Supervooc Data Cable",
     image: "https://m.media-amazon.com/images/I/31KspLGCT7L.jpg",
     link: "https://amzn.to/3Ip5MKO",
     alt: "Supervooc Data cable",
     price: 149
   },
   {
-    name:"type C to 3.5mm converter",
-    image:"https://m.media-amazon.com/images/I/71R-XkZL2AL._SX425_.jpg",
+    name: "type C to 3.5mm converter",
+    image: "https://m.media-amazon.com/images/I/71R-XkZL2AL._SX425_.jpg",
     link: "https://amzn.to/3VlpMks",
     alt: "type C to 3.5mm converter",
     price: 149
@@ -125,13 +125,20 @@ export const laptopAccessories = [
     alt: "Mouse pad",
     price: 89
   },
+  {
+    name: "laptop stand",
+    image: "https://m.media-amazon.com/images/I/615MaSOPLZL._SX522_.jpg",
+    link: "https://amzn.to/46zYMmk",
+    alt: "laptop stand",
+    price: 259
+  },
 ];
 
 // this is for Grocery---------------------------------------------.
 
 export const GroceryItem = [
   {
-   name: "Mixed-Dry Fruit",
+    name: "Mixed-Dry Fruit",
     image: "https://m.media-amazon.com/images/I/61J60jF4XgL._SX679_.jpg",
     link: "https://amzn.to/46B6Kgb",
     alt: "Mixed-Dry Fruit",
@@ -159,12 +166,12 @@ export const GroceryItem = [
     price: 494
   },
   {
-    name: "laptop stand",
-    image: "https://m.media-amazon.com/images/I/615MaSOPLZL._SX522_.jpg",
-    link: "https://amzn.to/46zYMmk",
-    alt: "laptop stand",
-    price: 259
-  }
+    name: "Iqoo neo 10R",
+    image: "https://m.media-amazon.com/images/I/610NUM9jlxL._SX679_.jpg",
+    link: "https://amzn.to/472wi68",
+    alt: "Iqoo neo 10R",
+    price: 24998
+  },
 ];
 
 //=============This is for Fitness tools============
