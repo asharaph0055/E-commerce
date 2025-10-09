@@ -132,6 +132,13 @@ export const laptopAccessories = [
     alt: "laptop stand",
     price: 259
   },
+  {
+    name: " Boat rokerz 518 component",
+    image: "https://m.media-amazon.com/images/I/717D60Wk0YL._SX679_.jpg",
+    link: "https://amzn.to/47gaa8p",
+    alt:  " Boat rokerz 518 component",
+    price: 284
+  },
 ];
 
 // this is for Grocery---------------------------------------------.
@@ -196,12 +203,5 @@ export const Smartphone = [
     link: "https://amzn.to/4nYabDw",
     alt: "One Plus nord CE 5 (5G) ",
     price: 23499
-  },
-  {
-    name: " Boat rokerz 518 component",
-    image: "https://m.media-amazon.com/images/I/717D60Wk0YL._SX679_.jpg",
-    link: "https://amzn.to/47gaa8p",
-    alt:  " Boat rokerz 518 component",
-    price: 284
   },
 ];
