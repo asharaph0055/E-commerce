@@ -1,5 +1,5 @@
 // main.js
-import { laptopAccessories, GroceryItem, fitnessItem } from './product.js';
+import { laptopAccessories, GroceryItem, fitnessItem, Smartphone} from './product.js';
 
 
 // 🛒 Cart array
@@ -51,6 +51,7 @@ function renderProducts(products, containerId) {
 renderProducts(laptopAccessories, 'electronics-container');
 renderProducts(GroceryItem, "grocery-container");
 renderProducts(fitnessItem, "fitness-container");
+renderProducts(Smartphone, "phone-container");
 
 // 🔍 Search functionality
 document.getElementById('searchInput')?.addEventListener('input', e => {
@@ -66,7 +67,8 @@ document.getElementById('searchInput')?.addEventListener('input', e => {
 
   renderProducts(filteredElectronics, 'electronics-container');
   renderProducts(filteredGroceries, "grocery-container");
-  renderProducts(filteredFitness, "fitness-container")
+  renderProducts(filteredFitness, "fitness-container");
+  renderProducts(Smartphone, "phone-container");
 });
 
 
