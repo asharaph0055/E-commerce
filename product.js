@@ -174,7 +174,7 @@ export const GroceryItem = [
   },
 ];
 
-//=============This is for Fitness tools============
+//=============This is for Fitness tools============//
 
 export const fitnessItem = [
   {
@@ -183,5 +183,25 @@ export const fitnessItem = [
     link: "https://amzn.to/46uh08Y",
     alt: "####",
     price: 399
+  },
+];
+
+
+//======== Smart-Phones===================//
+
+export const Smartphone = [
+  {
+    name: "One Plus nord CE 5 (5G) ",
+    image: "https://m.media-amazon.com/images/I/616ZzloUDIL._SX679_.jpg",
+    link: "https://amzn.to/4nYabDw",
+    alt: "One Plus nord CE 5 (5G) ",
+    price: 23499
+  },
+  {
+    name: " Boat rokerz 518 component",
+    image: "https://m.media-amazon.com/images/I/717D60Wk0YL._SX679_.jpg",
+    link: "https://amzn.to/47gaa8p",
+    alt:  " Boat rokerz 518 component",
+    price: 284
   },
 ];
